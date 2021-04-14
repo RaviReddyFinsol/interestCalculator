@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/RaviReddyFinsol/interestCalculator/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/RaviReddyFinsol/interestCalculator/static/js/main.c37aab26.chunk.js",
-    "main.js.map": "/RaviReddyFinsol/interestCalculator/static/js/main.c37aab26.chunk.js.map",
-    "runtime-main.js": "/RaviReddyFinsol/interestCalculator/static/js/runtime-main.fea25734.js",
-    "runtime-main.js.map": "/RaviReddyFinsol/interestCalculator/static/js/runtime-main.fea25734.js.map",
-    "static/js/2.d654a9d4.chunk.js": "/RaviReddyFinsol/interestCalculator/static/js/2.d654a9d4.chunk.js",
-    "static/js/2.d654a9d4.chunk.js.map": "/RaviReddyFinsol/interestCalculator/static/js/2.d654a9d4.chunk.js.map",
-    "static/js/3.7196a9aa.chunk.js": "/RaviReddyFinsol/interestCalculator/static/js/3.7196a9aa.chunk.js",
-    "static/js/3.7196a9aa.chunk.js.map": "/RaviReddyFinsol/interestCalculator/static/js/3.7196a9aa.chunk.js.map",
-    "index.html": "/RaviReddyFinsol/interestCalculator/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/RaviReddyFinsol/interestCalculator/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.d654a9d4.chunk.js.LICENSE.txt": "/RaviReddyFinsol/interestCalculator/static/js/2.d654a9d4.chunk.js.LICENSE.txt"
+    "main.css": "/interestCalculator/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/interestCalculator/static/js/main.c37aab26.chunk.js",
+    "main.js.map": "/interestCalculator/static/js/main.c37aab26.chunk.js.map",
+    "runtime-main.js": "/interestCalculator/static/js/runtime-main.136a52a8.js",
+    "runtime-main.js.map": "/interestCalculator/static/js/runtime-main.136a52a8.js.map",
+    "static/js/2.d654a9d4.chunk.js": "/interestCalculator/static/js/2.d654a9d4.chunk.js",
+    "static/js/2.d654a9d4.chunk.js.map": "/interestCalculator/static/js/2.d654a9d4.chunk.js.map",
+    "static/js/3.7196a9aa.chunk.js": "/interestCalculator/static/js/3.7196a9aa.chunk.js",
+    "static/js/3.7196a9aa.chunk.js.map": "/interestCalculator/static/js/3.7196a9aa.chunk.js.map",
+    "index.html": "/interestCalculator/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/interestCalculator/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.d654a9d4.chunk.js.LICENSE.txt": "/interestCalculator/static/js/2.d654a9d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fea25734.js",
+    "static/js/runtime-main.136a52a8.js",
     "static/js/2.d654a9d4.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.c37aab26.chunk.js"
