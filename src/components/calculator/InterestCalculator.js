@@ -57,31 +57,34 @@ export default function InterestCalculator() {
     }
 
     return (
-        <Grid container spacing={2}>
+        <Grid container spacing={2} direction="column"
+            justify="center"
+            alignItems="center"
+        >
             <Grid item xs={12}>
                 <FormControl component="fieldset">
                     <FormLabel component="legend">Interest Type</FormLabel>
-                    <RadioGroup aria-label="Interest Type" value={interestValues.interestType} name="interestType" onChange={interestValueChanged} row>
+                    <RadioGroup aria-label="Interest Type" value={interestValues.interestType} name="interestType" onChange={interestValueChanged} row size="small">
                         <FormControlLabel value="si" control={<Radio color="primary" />} label="SI" />
                         <FormControlLabel value="ci" control={<Radio color="primary" />} label="CI" />
                     </RadioGroup>
                 </FormControl>
             </Grid>
             <Grid item xs={12}>
-                <TextField type="number" label="Amount" variant="outlined" onChange={interestValueChanged} name="amount" value={interestValues.amount} style={widthStyle} />
+                <TextField type="number" label="Amount" variant="outlined" onChange={interestValueChanged} name="amount" value={interestValues.amount} fullWidth size="small" />
             </Grid>
             <Grid item xs={12}>
-                <TextField type="number" label="Interest Rate (in %)" variant="outlined" name="interestRate" onChange={interestValueChanged} value={interestValues.interestRate} style={widthStyle} />
+                <TextField type="number" label="Interest Rate (in %)" variant="outlined" name="interestRate" onChange={interestValueChanged} value={interestValues.interestRate} fullWidth size="small" />
             </Grid>
             {interestValues.interestType === "ci" ? (
                 <Grid item xs={12}>
-                    <FormControl variant="outlined" style={widthStyle}>
+                    <FormControl variant="outlined" fullWidth>
                         <InputLabel id="demo-simple-select-outlined-label">Interval</InputLabel>
                         <Select
                             labelId="demo-simple-select-outlined-label"
                             id="demo-simple-select-outlined"
                             value={interestValues.compoundInterval} name="compoundInterval"
-                            label="Interval" onChange={interestValueChanged}
+                            label="Interval" onChange={interestValueChanged} size="small" fullWidth
                         >
                             <MenuItem value={1}>Monthly</MenuItem>
                             <MenuItem value={3}>Quaterly</MenuItem>
@@ -91,13 +94,13 @@ export default function InterestCalculator() {
                     </FormControl>
                 </Grid>) : ("")}
             <Grid item xs={12}>
-                <TextField label="From Date" type="date" variant="outlined" name="fromDate" value={interestValues.fromDate} onChange={interestValueChanged} style={widthStyle} />
+                <TextField label="From Date" type="date" variant="outlined" name="fromDate" value={interestValues.fromDate} onChange={interestValueChanged} fullWidth size="small" />
             </Grid>
             <Grid item xs={12}>
-                <TextField label="To Date" type="date" name="toDate" variant="outlined" value={interestValues.toDate} onChange={interestValueChanged} style={widthStyle} />
+                <TextField label="To Date" type="date" name="toDate" variant="outlined" value={interestValues.toDate} onChange={interestValueChanged} fullWidth size="small" />
             </Grid>
             <Grid item xs={12}>
-                <Button variant="contained" color="primary" onClick={calculateInterest} style={widthStyle}>Calculate</Button>
+                <Button variant="contained" color="primary" onClick={calculateInterest} fullWidth size="small">Calculate</Button>
             </Grid>
             {
                 interestValues.calculatedInterest ? (<Grid item xs={12}>
